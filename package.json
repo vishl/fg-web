@@ -1,0 +1,17 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.0.5",
+    "jade": "*",
+    "less-middleware": "*",
+    "underscore": "*",
+    "mongoose": "3.5.3",
+    "mongoose-troop":"0.0.7",
+    "log-timestamp": "0.0.4"
+  }
+}

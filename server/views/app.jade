@@ -1,0 +1,16 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap/bootstrap.css')
+    != nap.jst('templates')
+    != nap.js('lib')
+    != nap.js('app')
+  body
+    #main_window
+    script
+      $(function(){
+        if(App.init){
+          App.init();
+        }
+      });

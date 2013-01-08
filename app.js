@@ -1,4 +1,4 @@
-/*global mongoose Models*/
+/*global mongoose:true Models:true*/
 
 //libs
 require('log-timestamp')('[%s] %s', function(){ return new Date().toJSON(); });
@@ -24,8 +24,13 @@ app.configure(function(){
   app.use(app.router);
   app.use(require('less-middleware')({ src: __dirname + '/public' }));
   app.use(express.static(path.join(__dirname, 'public')));
+  app.use(function (err, req, res, next) {
+    console.log(err);
+    res.send(500, { error: err });
+  });
 });
 app.configure('development', function(){
+  console.log("error");
   app.use(express.errorHandler());
 });
 
@@ -54,3 +59,5 @@ db.once('open', function callback () {
   }
 });
 
+//TODO dev only
+require('client/assets.js');

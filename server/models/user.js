@@ -21,12 +21,12 @@ UserSchema.path('email').match(/^[\w+\-]+(\.[\w+\-]+)*@([\w\-]+\.)+\w+$/i);
 
 ////////////////////////////////// Methods /////////////////////////////////////
 UserSchema.methods.toJSON = function(options){
-  return {
+  return JSON.stringify({
     id:this.id,
     name:this.name,
     email:this.email,
     loginToken:this.loginToken
-  };
+  });
 };
 
 //Sets the log in token if necessary

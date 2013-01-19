@@ -10,4 +10,12 @@ App.Models.User = Backbone.Model.extend({
     this.save(null, options);
   },
 
+  isLoggedIn:function(){
+    return !!this.attributes.loginToken;
+  },
+
+  logOut:function(){
+    $.cookie('accesstoken', '');
+  },
+
 });

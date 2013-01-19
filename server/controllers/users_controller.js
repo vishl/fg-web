@@ -21,6 +21,7 @@ exports.create = function(req, res){
       res.send(err.toString());
     }else{
       logIn(model, res, function(){
+        res.setHeader('Content-Type', 'application/json');
         res.send(model.toJSON());
       });
     }
@@ -28,13 +29,15 @@ exports.create = function(req, res){
 };
 
 exports.authenticate = function(req, res){
+  console.log("%j", req.body);
   Models.User.authenticate(req.param('email'), req.param('password'), function(err, model){
     if(err){
       console.log("Error: %j", err);
       res.statusCode = 400;
-      res.send(err.toString());
+      res.json(err.toString());
     }else{
       logIn(model, res, function(){
+        res.setHeader('Content-Type', 'application/json');
         res.send(model.toJSON());
       });
     }
@@ -49,7 +52,6 @@ exports.destroy = function(req, res){
 
 exports.show = function(req, res){
   Utils.ensureLoggedIn(req, res, function(user){
-    //TODO render user JSON
     res.send(user.toJSON());
   });
 };

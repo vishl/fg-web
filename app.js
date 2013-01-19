@@ -11,7 +11,7 @@ mongoose = require('mongoose');
 //create app
 var app = module.exports = express();
 app.configure(function(){
-  app.set('port', process.env.PORT || 3000);
+  app.set('port', process.env.PORT || 3002);
   app.set('views', __dirname + '/server/views');
   app.set('view engine', 'jade');
   app.use(express.favicon(/*favicon path here*/));
@@ -30,7 +30,6 @@ app.configure(function(){
   });
 });
 app.configure('development', function(){
-  console.log("error");
   app.use(express.errorHandler());
 });
 

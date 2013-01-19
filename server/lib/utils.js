@@ -1,12 +1,7 @@
 /*global Models*/
+var Utils = module.exports;
 
-exports.ensureLoggedIn = function(req,res,next){
-  //we use this later
-  var failure = function(){
-    res.statusCode = 401;
-    res.send("Not logged in");
-  };
-
+Utils.authenticate = function(req, cb){
   var token = null;
   token = req.cookies.accesstoken;
   if(!token){
@@ -15,23 +10,39 @@ exports.ensureLoggedIn = function(req,res,next){
   if(token){
     Models.User.find({loginToken:token}, function(err, models){
       if(err){
-        failure();
+        cb(err);
       }else{
         if(models.length===1){
           var user = models[0];
           if(user.loginTokenExpire<Date.now()){
-            failure();
+            cb(true);
           }else{
             //success
-            next(user);
+            cb(null, user);
           }
         }else{
-          failure();
+          cb(true);
         }
       }
     });
   }else{
-    failure();
+    cb(true);
   }
+};
+
+Utils.ensureLoggedIn = function(req,res,next){
+  //we use this later
+  var failure = function(){
+    res.statusCode = 401;
+    res.send("Not logged in");
+  };
+
+  Utils.authenticate(req, function(err, model){
+    if(err){
+      failure();
+    }else{
+      next(model);
+    }
+  });
 
 };

@@ -1,0 +1,526 @@
+
+chdir(/usr/share/vim)
+fchdir() to previous dir
+sourcing "$VIM/vimrc"
+finished sourcing $VIM/vimrc
+chdir(/Users/vishal)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 1: sourcing "/usr/share/vim/vim73/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/Users/vishal/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim73/syntax/synload.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim73/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/Users/vishal/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim
+continuing in /usr/share/vim/vim73/syntax/synload.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/vishal/.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/synload.vim
+continuing in /usr/share/vim/vim73/syntax/syntax.vim
+Searching for "filetype.vim" in "/Users/vishal/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 25: sourcing "/usr/share/vim/vim73/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/vishal/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/ftdetect/*.vim"
+chdir(/Users/vishal/.vim/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/vishal/.vim/ftdetect/javascript.vim"
+finished sourcing /Users/vishal/.vim/ftdetect/javascript.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+chdir(/Users/vishal/.vim/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/vishal/.vim/ftdetect/jst.vim"
+finished sourcing /Users/vishal/.vim/ftdetect/jst.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim73/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/vishal/.vim/after/ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /usr/share/vim/vim73/syntax/syntax.vim
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/vishal/.vim/after/filetype.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syntax.vim
+continuing in /Users/vishal/.vimrc
+Searching for "colors/wombat256.vim" in "/Users/vishal/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/colors/wombat256.vim"
+chdir(/Users/vishal/.vim/colors)
+fchdir() to previous dir
+line 3: sourcing "/Users/vishal/.vim/colors/wombat256.vim"
+Searching for "syntax/syncolor.vim" in "/Users/vishal/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 9: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim
+continuing in /Users/vishal/Dropbox/Public/shell/.vim/colors/wombat256.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/vishal/.vim/after/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/Users/vishal/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 12: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim
+continuing in /Users/vishal/Dropbox/Public/shell/.vim/colors/wombat256.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/vishal/.vim/after/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/Users/vishal/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 14: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim
+continuing in /Users/vishal/Dropbox/Public/shell/.vim/colors/wombat256.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/vishal/.vim/after/syntax/syncolor.vim"
+finished sourcing /Users/vishal/.vim/colors/wombat256.vim
+continuing in /Users/vishal/.vimrc
+Searching for "autoload/pathogen.vim" in "/Users/vishal/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/autoload/pathogen.vim"
+chdir(/Users/vishal/.vim/autoload)
+fchdir() to previous dir
+line 30: sourcing "/Users/vishal/.vim/autoload/pathogen.vim"
+finished sourcing /Users/vishal/.vim/autoload/pathogen.vim
+continuing in /Users/vishal/.vimrc
+Searching for "ftoff.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/ftoff.vim"
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/ftoff.vim"
+Searching for "/Users/vishal/.vim/bundle/syntastic/ftoff.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/ftoff.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-less/ftoff.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-rails/ftoff.vim"
+Searching for "/usr/share/vim/vimfiles/ftoff.vim"
+Searching for "/usr/share/vim/vim73/ftoff.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 2: sourcing "/usr/share/vim/vim73/ftoff.vim"
+finished sourcing /usr/share/vim/vim73/ftoff.vim
+continuing in function pathogen#infect..pathogen#cycle_filetype
+Searching for "/usr/share/vim/vimfiles/after/ftoff.vim"
+Searching for "/Users/vishal/.vim/after/ftoff.vim"
+Searching for "filetype.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/syntastic/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-less/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-rails/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 3: sourcing "/usr/share/vim/vim73/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/ftdetect/*.vim"
+chdir(/Users/vishal/.vim/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/vishal/.vim/ftdetect/javascript.vim"
+finished sourcing /Users/vishal/.vim/ftdetect/javascript.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+chdir(/Users/vishal/.vim/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/vishal/.vim/ftdetect/jst.vim"
+finished sourcing /Users/vishal/.vim/ftdetect/jst.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/ftdetect/*.vim"
+Searching for "/Users/vishal/.vim/bundle/syntastic/ftdetect/*.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/ftdetect/*.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-less/ftdetect/*.vim"
+chdir(/Users/vishal/.vim/bundle/vim-less/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/vishal/.vim/bundle/vim-less/ftdetect/less.vim"
+finished sourcing /Users/vishal/.vim/bundle/vim-less/ftdetect/less.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+Searching for "/Users/vishal/.vim/bundle/vim-rails/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim73/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/vishal/.vim/after/ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in function pathogen#infect..pathogen#cycle_filetype
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/vishal/.vim/after/filetype.vim"
+Searching for "filetype.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/syntastic/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-less/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-rails/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 41: sourcing "/usr/share/vim/vim73/filetype.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /Users/vishal/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/vishal/.vim/after/filetype.vim"
+Searching for "filetype.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/syntastic/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-less/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-rails/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 42: sourcing "/usr/share/vim/vim73/filetype.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /Users/vishal/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/vishal/.vim/after/filetype.vim"
+Searching for "indent.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/indent.vim"
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/indent.vim"
+Searching for "/Users/vishal/.vim/bundle/syntastic/indent.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/indent.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-less/indent.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-rails/indent.vim"
+Searching for "/usr/share/vim/vimfiles/indent.vim"
+Searching for "/usr/share/vim/vim73/indent.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 42: sourcing "/usr/share/vim/vim73/indent.vim"
+finished sourcing /usr/share/vim/vim73/indent.vim
+continuing in /Users/vishal/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/indent.vim"
+Searching for "/Users/vishal/.vim/after/indent.vim"
+Searching for "filetype.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/syntastic/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-less/filetype.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-rails/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 43: sourcing "/usr/share/vim/vim73/filetype.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /Users/vishal/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/vishal/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/ftplugin.vim"
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/ftplugin.vim"
+Searching for "/Users/vishal/.vim/bundle/syntastic/ftplugin.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/ftplugin.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-less/ftplugin.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-rails/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim73/ftplugin.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 43: sourcing "/usr/share/vim/vim73/ftplugin.vim"
+finished sourcing /usr/share/vim/vim73/ftplugin.vim
+continuing in /Users/vishal/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/Users/vishal/.vim/after/ftplugin.vim"
+chdir(/Users/vishal)
+fchdir() to previous dir
+line 271: sourcing "/Users/vishal/.vimrc.local"
+finished sourcing /Users/vishal/.vimrc.local
+continuing in /Users/vishal/.vimrc
+finished sourcing $HOME/.vimrc
+Searching for "plugin/**/*.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/plugin/**/*.vim"
+chdir(/Users/vishal/.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/plugin/NERD_tree.vim"
+finished sourcing /Users/vishal/.vim/plugin/NERD_tree.vim
+chdir(/Users/vishal/.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/plugin/a.vim"
+finished sourcing /Users/vishal/.vim/plugin/a.vim
+chdir(/Users/vishal/.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/plugin/align.vim"
+finished sourcing /Users/vishal/.vim/plugin/align.vim
+chdir(/Users/vishal/.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/plugin/cocoa.vim"
+finished sourcing /Users/vishal/.vim/plugin/cocoa.vim
+chdir(/Users/vishal/.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/plugin/snipMate.vim"
+finished sourcing /Users/vishal/.vim/plugin/snipMate.vim
+chdir(/Users/vishal/.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/plugin/tagbar.vim"
+finished sourcing /Users/vishal/.vim/plugin/tagbar.vim
+chdir(/Users/vishal/.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/plugin/taglist.vim"
+finished sourcing /Users/vishal/.vim/plugin/taglist.vim
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/plugin/**/*.vim"
+chdir(/Users/vishal/.vim/bundle/ctrlp.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim"
+Searching for "autoload/ctrlp/mrufiles.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/autoload/ctrlp/mrufiles.vim"
+chdir(/Users/vishal/.vim/autoload/ctrlp)
+fchdir() to previous dir
+line 43: sourcing "/Users/vishal/.vim/autoload/ctrlp/mrufiles.vim"
+finished sourcing /Users/vishal/.vim/autoload/ctrlp/mrufiles.vim
+continuing in /Users/vishal/Dropbox/Public/shell/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim
+finished sourcing /Users/vishal/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim
+Searching for "/Users/vishal/.vim/bundle/syntastic/plugin/**/*.vim"
+chdir(/Users/vishal/.vim/bundle/syntastic/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/bundle/syntastic/plugin/syntastic.vim"
+Calling shell to execute: "(uname) >/var/folders/37/r10g2lg92db02wrxkb1d6zcc0000gn/T/vqDZK5u/0"
+finished sourcing /Users/vishal/.vim/bundle/syntastic/plugin/syntastic.vim
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/plugin/**/*.vim"
+chdir(/Users/vishal/.vim/bundle/vim-fugitive/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/bundle/vim-fugitive/plugin/fugitive.vim"
+Searching for "autoload/fugitive.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/autoload/fugitive.vim"
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/autoload/fugitive.vim"
+Searching for "/Users/vishal/.vim/bundle/syntastic/autoload/fugitive.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/autoload/fugitive.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-less/autoload/fugitive.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-rails/autoload/fugitive.vim"
+Searching for "/usr/share/vim/vimfiles/autoload/fugitive.vim"
+Searching for "/usr/share/vim/vim73/autoload/fugitive.vim"
+Searching for "/usr/share/vim/vimfiles/after/autoload/fugitive.vim"
+Searching for "/Users/vishal/.vim/after/autoload/fugitive.vim"
+not found in 'runtimepath': "autoload/fugitive.vim"
+finished sourcing /Users/vishal/.vim/bundle/vim-fugitive/plugin/fugitive.vim
+Searching for "/Users/vishal/.vim/bundle/vim-less/plugin/**/*.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-rails/plugin/**/*.vim"
+chdir(/Users/vishal/.vim/bundle/vim-rails/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/bundle/vim-rails/plugin/rails.vim"
+finished sourcing /Users/vishal/.vim/bundle/vim-rails/plugin/rails.vim
+Searching for "/usr/share/vim/vimfiles/plugin/**/*.vim"
+Searching for "/usr/share/vim/vim73/plugin/**/*.vim"
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/getscriptPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/getscriptPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/gzip.vim"
+finished sourcing /usr/share/vim/vim73/plugin/gzip.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/matchparen.vim"
+finished sourcing /usr/share/vim/vim73/plugin/matchparen.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/netrwPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/rrhelper.vim"
+finished sourcing /usr/share/vim/vim73/plugin/rrhelper.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/spellfile.vim"
+finished sourcing /usr/share/vim/vim73/plugin/spellfile.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/tarPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/tarPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/tohtml.vim"
+finished sourcing /usr/share/vim/vim73/plugin/tohtml.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/vimballPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/vimballPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/zipPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/zipPlugin.vim
+Searching for "/usr/share/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/Users/vishal/.vim/after/plugin/**/*.vim"
+chdir(/Users/vishal/.vim/after/plugin)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/after/plugin/snipMate.vim"
+finished sourcing /Users/vishal/.vim/after/plugin/snipMate.vim
+Reading viminfo file "/Users/vishal/.viminfo" info oldfiles
+Executing BufWinEnter Auto commands for "*"
+autocommand if empty(&bt) | call s:AutoToggleLocList() | endif
+
+Executing BufWinEnter Auto commands for "*"
+autocommand if s:diff_window_count() == 1 && &diff && getbufvar(+expand('<abuf>'), 'git_dir') !=# '' | call s:diffoff() | endif
+
+Executing BufEnter Auto commands for "*"
+autocommand call s:checkForBrowse(expand("<amatch>"))
+
+Executing BufEnter Auto commands for "*"
+autocommand cal s:record(expand('<abuf>', 1))
+
+Executing BufEnter Auto commands for "*"
+autocommand if exists("b:rails_root")|silent doau User BufEnterRails|endif
+
+Executing BufEnter Auto commands for "*"
+autocommand silent! call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand call s:Bookmark.CacheBookmarks(0)
+
+autocommand runtime! nerdtree_plugin/**/*.vim
+
+Searching for "nerdtree_plugin/**/*.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/nerdtree_plugin/**/*.vim"
+chdir(/Users/vishal/.vim/nerdtree_plugin)
+fchdir() to previous dir
+line 0: sourcing "/Users/vishal/.vim/nerdtree_plugin/exec_menuitem.vim"
+finished sourcing /Users/vishal/.vim/nerdtree_plugin/exec_menuitem.vim
+continuing in VimEnter Auto commands for "*"
+chdir(/Users/vishal/.vim/nerdtree_plugin)
+fchdir() to previous dir
+line 0: sourcing "/Users/vishal/.vim/nerdtree_plugin/fs_menu.vim"
+finished sourcing /Users/vishal/.vim/nerdtree_plugin/fs_menu.vim
+continuing in VimEnter Auto commands for "*"
+Searching for "/Users/vishal/.vim/bundle/ctrlp.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/vishal/.vim/bundle/syntastic/nerdtree_plugin/**/*.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-fugitive/nerdtree_plugin/**/*.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-less/nerdtree_plugin/**/*.vim"
+Searching for "/Users/vishal/.vim/bundle/vim-rails/nerdtree_plugin/**/*.vim"
+Searching for "/usr/share/vim/vimfiles/nerdtree_plugin/**/*.vim"
+Searching for "/usr/share/vim/vim73/nerdtree_plugin/**/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/vishal/.vim/after/nerdtree_plugin/**/*.vim"
+Executing VimEnter Auto commands for "*"
+autocommand silent! autocmd! FileExplorer
+
+autocommand call s:checkForBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand call s:compatibility_check()
+
+Executing VimEnter Auto commands for "*"
+autocommand if expand('<amatch>')==''|call s:Detect(getcwd())|endif
+
+Executing User Auto commands for "Fugitive"
+autocommand call s:define_commands()
+
+Executing User Auto commands for "Fugitive"
+autocommand if s:buffer().commit() =~# '^0\=$' | exe "command! -buffer -bar -bang -nargs=1 -complete=customlist,s:MoveComplete Gmove :execute s:Move(<bang>0,<q-args>)" | exe "command! -buffer -bar -bang Gremove :execute s:Remove(<bang>0)" | endif
+
+Executing User Auto commands for "Fugitive"
+autocommand if s:buffer().type('file', 'blob') | exe "command! -buffer -bar -bang -range=0 -nargs=* Gblame :execute s:Blame(<bang>0,<line1>,<line2>,<count>,[<f-args>])" | endif
+
+Executing VimEnter Auto commands for "*"
+autocommand if expand("<amatch>") == "" && !exists("b:rails_root") | call s:Detect(getcwd()) | endif | if exists("b:rails_root") | silent doau User BufEnterRails | endif
+
+Executing VimEnter Auto commands for "*"
+autocommand call s:abolish_setup()
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:EchoCurrentError()
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+Searching for "autoload/ctrlp.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/autoload/ctrlp.vim"
+chdir(/Users/vishal/.vim/autoload)
+fchdir() to previous dir
+sourcing "/Users/vishal/.vim/autoload/ctrlp.vim"
+Searching for "autoload/ctrlp/utils.vim" in "/Users/vishal/.vim,/Users/vishal/.vim/bundle/ctrlp.vim,/Users/vishal/.vim/bundle/syntastic,/Users/vishal/.vim/bundle/vim-fugitive,/Users/vishal/.vim/bundle/vim-less,/Users/vishal/.vim/bundle/vim-rails,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/vishal/.vim/after"
+Searching for "/Users/vishal/.vim/autoload/ctrlp/utils.vim"
+chdir(/Users/vishal/.vim/autoload/ctrlp)
+fchdir() to previous dir
+line 133: sourcing "/Users/vishal/.vim/autoload/ctrlp/utils.vim"
+finished sourcing /Users/vishal/.vim/autoload/ctrlp/utils.vim
+continuing in /Users/vishal/Dropbox/Public/shell/.vim/autoload/ctrlp.vim
+finished sourcing /Users/vishal/.vim/autoload/ctrlp.vim
+chdir(/Users/vishal/Documents/work/oss/goodfeelings/fg-web)
+fchdir() to previous dir
+Reading viminfo file "/Users/vishal/.viminfo" marks
+Error detected while processing function ctrlp#init..<SNR>41_SetWD:
+line    3:
+E731: using Dictionary as a String
+                                  chdir(/Users/vishal/Documents/work/oss/goodfeelings/fg-web)
+                                  /Users/vishal/Documents/work/oss/goodfeelings/fg-web
+                                  chdir(/Users/vishal/Documents/work/oss/goodfeelings/fg-web)
+                                  /Users/vishal/Documents/work/oss/goodfeelings/fg-web>>> _
+Executing CursorMoved Auto commands for "*"
+autocommand call s:EchoCurrentError()
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+Executing BufLeave Auto commands for "*"
+autocommand cal s:record(expand('<abuf>', 1))
+
+Executing BufLeave Auto commands for "*"
+autocommand if exists("b:rails_root")|silent doau User BufLeaveRails|endif
+
+Executing BufLeave Auto commands for "ControlP"
+autocommand cal s:Close()
+
+chdir(/Users/vishal/Documents/work/oss/goodfeelings/fg-web)
+Executing WinEnter Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing BufEnter Auto commands for "*"
+autocommand call s:checkForBrowse(expand("<amatch>"))
+
+Executing BufEnter Auto commands for "*"
+autocommand cal s:record(expand('<abuf>', 1))
+
+Executing BufEnter Auto commands for "*"
+autocommand if exists("b:rails_root")|silent doau User BufEnterRails|endif
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:EchoCurrentError()
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+Executing BufWinLeave Auto commands for "*"
+autocommand if empty(&bt) | lclose | endif
+
+Executing BufWinLeave Auto commands for "*"
+autocommand execute getwinvar(+bufwinnr(+expand('<abuf>')), 'fugitive_leave')
+
+Executing BufWinLeave Auto commands for "*"
+autocommand if s:diff_window_count() == 2 && &diff && getbufvar(+expand('<abuf>'), 'git_dir') !=# '' | call s:diffoff_all(getbufvar(+expand('<abuf>'), 'git_dir')) | endif
+
+Executing BufUnload Auto commands for "*"
+autocommand cal s:record(expand('<abuf>', 1))
+
+Executing VimLeavePre Auto commands for "*"
+autocommand cal s:savetofile(s:mergelists())
+
+Executing VimLeavePre Auto commands for "*"
+autocommand cal s:leavepre()
+
+Writing viminfo file "/Users/vishal/.viminfo"

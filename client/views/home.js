@@ -1,8 +1,7 @@
 /*global App Backbone JST*/
-App.Views.Home = Backbone.View.extend({
+App.Views.HomeLoggedOut = Backbone.View.extend({
   events:{
-    'submit form#signup':'signup',
-    'submit form#login':'login',
+    "click #signup":'signup'
   },
 
   initialize:function(){
@@ -10,49 +9,66 @@ App.Views.Home = Backbone.View.extend({
   },
 
   render:function(){
+    this.$el.html(JST['home_logged_out']());
+  },
+
+  signup:function(){
+    App.router.navigate('signup', {trigger:true});
+  },
+});
+
+//pretty much the whole app is in here
+App.Views.Home = Backbone.View.extend({
+  initialize:function(){
+    this.settingsBar = new App.Views.SettingsBar();
+    this.selectionArea = new App.Views.SelectionArea();
+    this.contentArea = new App.Views.ContentArea();
+    $('#main_window').html(this.el);
+  },
+
+  render:function(){
     this.$el.html(JST['home']());
-    this.delegateEvents();
+    this.$('#selection_area').html(this.selectionArea.el);
+    this.selectionArea.render();
+    this.$('#settings_area').html(this.settingsBar.el);
+    this.settingsBar.render();
+    this.$('#content_area').html(this.contentArea.el);
+    this.contentArea.render();
+  },
+});
+
+App.Views.SelectionArea = Backbone.View.extend({
+  initialize:function(){
   },
 
-  signup:function(e){
-    if(e){
-      e.preventDefault();
-    }
+  render:function(){
+    this.$el.html(JST['selection_area']());
+  },
+});
 
-    var attrs = {};
-    attrs.name = this.$('#signup').find('#name').val();
-    attrs.email = this.$('#signup').find('#email').val();
-    attrs.password = this.$('#signup').find('#password').val();
-
-    var user = new App.Models.User(attrs);
-    user.save(null, {
-      success:function(){
-        console.log("success");
-      },
-      error:function(model, resp){
-        console.log("error: "+resp.responseText);
-      },
-    });
+App.Views.ContentArea = Backbone.View.extend({
+  initialize:function(){
   },
 
-  login:function(e){
-    if(e){
-      e.preventDefault();
-    }
+  render:function(){
+    this.$el.html(JST['content_area']());
+  },
+});
 
-    var attrs = {};
-    attrs.email = this.$('#login').find('#email').val();
-    attrs.password = this.$('#login').find('#password').val();
-
-    var user = new App.Models.User(attrs);
-    user.login({
-      success:function(){
-        console.log("success");
-      },
-      error:function(model, resp){
-        console.log("error: "+resp.responseText);
-      },
-    });
+App.Views.SettingsBar = Backbone.View.extend({
+  events:{
+    "click #logout":'logout',
   },
 
+  initialize:function(){
+  },
+
+  render:function(){
+    this.$el.html(JST['settings_bar']({user:App.currentUser}));
+  },
+
+  logout:function(){
+    App.currentUser.logOut();
+    location.reload(true);
+  },
 });

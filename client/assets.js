@@ -5,8 +5,11 @@ nap({
     js: {
       lib: [
         '/client/lib/jquery.js',
+        '/client/lib/jquery.cookie.js',
         '/client/lib/underscore.js',
         '/client/lib/backbone.js',
+        '/client/lib/utils.js',
+        '/client/lib/backbone_extensions.js',
       ],
       app: [
         '/client/application.js',
